@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#063469">
+  <meta name="description" content="Explore the TogetherCare mobile app: screens for clients, families and personal support workers.">
+  <meta name="robots" content="noindex, nofollow">
+  <title>TogetherCare | Mobile app preview</title>
+  <link rel="icon" type="image/png" href="./assets/brand/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/styles.css">
+  <script src="./assets/gallery.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#gallery">Skip to screens</a>
+  <svg class="icon-library" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <symbol id="icon-search" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4.5 4.5"/></symbol>
+    <symbol id="icon-close" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18"/></symbol>
+    <symbol id="icon-left" viewBox="0 0 24 24"><path d="m14 6-6 6 6 6"/></symbol>
+    <symbol id="icon-right" viewBox="0 0 24 24"><path d="m10 6 6 6-6 6"/></symbol>
+    <symbol id="icon-expand" viewBox="0 0 24 24"><path d="M8 3H3v5m13-5h5v5M3 16v5h5m13-5v5h-5"/></symbol>
+    <symbol id="icon-download" viewBox="0 0 24 24"><path d="M12 3v12m-5-5 5 5 5-5M4 16v5h16v-5"/></symbol>
+    <symbol id="icon-arrow" viewBox="0 0 24 24"><path d="M5 12h14m-6-6 6 6-6 6"/></symbol>
+  </svg>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="./" aria-label="Together Care Health Services — mobile preview home">
+        <img class="brand-mark" src="./assets/brand/logo.png" width="500" height="500" alt="">
+        <span class="brand-name"><span>Together Care</span><span class="brand-descriptor">Health Services</span></span>
+      </a>
+      <span class="header-label">Mobile app preview</span>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="page-title">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <span class="eyebrow">TOGETHERCARE MOBILE</span>
+          <h1 id="page-title">Care, closer<br><span>at hand.</span></h1>
+          <p class="hero-description">A look inside the TogetherCare mobile app.</p>
+          <p class="preview-note"><span class="status-dot" aria-hidden="true"></span>Development preview <span aria-hidden="true">·</span> Sample data</p>
+        </div>
+        <a class="hero-preview" href="#gallery" aria-label="Explore the mobile app screens">
+          <span class="hero-preview-art" aria-hidden="true">
+            <span class="hero-orbit orbit-one"></span><span class="hero-orbit orbit-two"></span>
+            <span class="mini-phone phone-back"><img src="./assets/screenshots/05-psw-schedule.png" width="824" height="1830" alt="" fetchpriority="high"></span>
+            <span class="mini-phone phone-front"><img src="./assets/screenshots/04-psw-today.png" width="824" height="1830" alt="" fetchpriority="high"></span>
+          </span>
+          <span class="hero-preview-caption">Explore the screens <svg class="icon"><use href="#icon-arrow"/></svg></span>
+        </a>
+      </div>
+    </section>
+
+    <section class="gallery-section" id="gallery" aria-labelledby="gallery-title" tabindex="-1">
+      <div class="gallery-toolbar">
+        <div class="container">
+          <div class="gallery-heading">
+            <div><span class="section-eyebrow">THE EXPERIENCE</span><h2 id="gallery-title">Screen gallery</h2></div>
+            <span class="result-count" id="result-count" role="status" aria-live="polite">38 previews</span>
+          </div>
+          <div class="filter-row">
+            <div class="filters" role="group" aria-label="Filter screens">
+              <button class="filter active" type="button" data-filter="all" aria-pressed="true">All screens</button>
+              <button class="filter" type="button" data-filter="Getting started" aria-pressed="false">Getting started</button>
+              <button class="filter" type="button" data-filter="PSW" aria-pressed="false">PSW</button>
+              <button class="filter" type="button" data-filter="Client" aria-pressed="false">Client</button>
+              <button class="filter" type="button" data-filter="Family" aria-pressed="false">Family</button>
+              <button class="filter" type="button" data-filter="Support" aria-pressed="false">Support</button>
+            </div>
+            <div class="search-field">
+              <svg class="icon" aria-hidden="true"><use href="#icon-search"/></svg>
+              <label class="sr-only" for="screen-search">Search screens</label>
+              <input id="screen-search" type="search" placeholder="Find a screen" autocomplete="off">
+              <button id="clear-search" class="icon-button clear-search" type="button" aria-label="Clear search" hidden><svg class="icon" aria-hidden="true"><use href="#icon-close"/></svg></button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container gallery-content">
+        <div class="screen-grid" id="screen-grid" aria-label="Mobile screen previews"></div>
+        <div class="empty-state" id="empty-state" hidden><h3>No screens found</h3><p>Try another search or view all screens.</p><button type="button" class="primary-button" id="reset-filters">View all screens</button></div>
+        <p class="load-error" id="load-error" role="alert" hidden>The screens could not load. Please refresh this page.</p>
+        <noscript><p>Please enable JavaScript to browse the screen gallery.</p></noscript>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-inner"><span>Together Care Health Services</span><span>Mobile app preview</span></div></footer>
+
+  <dialog class="screen-viewer" id="screen-viewer" aria-labelledby="viewer-title">
+    <div class="viewer-panel">
+      <div class="viewer-heading">
+        <div><span class="viewer-category" id="viewer-category"></span><h2 id="viewer-title"></h2></div>
+        <button class="icon-button viewer-close" type="button" id="close-viewer" aria-label="Close screen viewer"><svg class="icon" aria-hidden="true"><use href="#icon-close"/></svg></button>
+      </div>
+      <div class="viewer-stage"><img id="viewer-image" width="824" height="1830" alt=""></div>
+      <div class="viewer-controls">
+        <div class="viewer-pagination"><button class="icon-button" id="previous-screen" type="button" aria-label="Previous screen"><svg class="icon" aria-hidden="true"><use href="#icon-left"/></svg></button><span id="viewer-position" aria-live="polite"></span><button class="icon-button" id="next-screen" type="button" aria-label="Next screen"><svg class="icon" aria-hidden="true"><use href="#icon-right"/></svg></button></div>
+        <div class="viewer-links"><a class="text-button" id="open-original" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="#icon-expand"/></svg><span>Full size</span></a><a class="text-button" id="download-screen" download><svg class="icon" aria-hidden="true"><use href="#icon-download"/></svg><span>Save image</span></a></div>
+      </div>
+    </div>
+  </dialog>
+</body>
+</html>
+

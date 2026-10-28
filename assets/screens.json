@@ -1,0 +1,306 @@
+[
+  {
+    "id": "welcome",
+    "title": "Welcome",
+    "category": "Getting started",
+    "kind": "Screen",
+    "keywords": "Welcome welcome ",
+    "file": "./assets/screenshots/01-welcome.png"
+  },
+  {
+    "id": "client-sign-in",
+    "title": "Client & family sign-in",
+    "category": "Getting started",
+    "kind": "Screen",
+    "keywords": "Client and family sign-in sign-in ",
+    "file": "./assets/screenshots/02-client-sign-in.png"
+  },
+  {
+    "id": "psw-sign-in",
+    "title": "PSW sign-in",
+    "category": "Getting started",
+    "kind": "Screen",
+    "keywords": "PSW sign-in sign-in ",
+    "file": "./assets/screenshots/03-psw-sign-in.png"
+  },
+  {
+    "id": "psw-today",
+    "title": "Today",
+    "category": "PSW",
+    "kind": "Screen",
+    "keywords": "PSW Today today ",
+    "file": "./assets/screenshots/04-psw-today.png"
+  },
+  {
+    "id": "psw-schedule",
+    "title": "Schedule",
+    "category": "PSW",
+    "kind": "Screen",
+    "keywords": "PSW Schedule schedule ",
+    "file": "./assets/screenshots/05-psw-schedule.png"
+  },
+  {
+    "id": "visit-pending",
+    "title": "Visit invitation",
+    "category": "PSW",
+    "kind": "Screen",
+    "keywords": "Visit awaiting confirmation visit pending",
+    "file": "./assets/screenshots/06-visit-pending.png"
+  },
+  {
+    "id": "visit-confirmed",
+    "title": "Confirmed visit",
+    "category": "PSW",
+    "kind": "Screen",
+    "keywords": "Confirmed visit details visit confirmed",
+    "file": "./assets/screenshots/07-visit-confirmed.png"
+  },
+  {
+    "id": "visit-decline",
+    "title": "Decline a visit",
+    "category": "PSW",
+    "kind": "Screen",
+    "keywords": "Decline form visit pending",
+    "file": "./assets/screenshots/08-visit-decline.png"
+  },
+  {
+    "id": "psw-account",
+    "title": "PSW account",
+    "category": "PSW",
+    "kind": "Screen",
+    "keywords": "PSW Account account ",
+    "file": "./assets/screenshots/09-psw-account.png"
+  },
+  {
+    "id": "client-account",
+    "title": "Client account",
+    "category": "Client",
+    "kind": "Screen",
+    "keywords": "Client Account account ",
+    "file": "./assets/screenshots/10-client-account.png"
+  },
+  {
+    "id": "delegate-account",
+    "title": "Family delegate account",
+    "category": "Family",
+    "kind": "Screen",
+    "keywords": "Delegate Account account ",
+    "file": "./assets/screenshots/11-delegate-account.png"
+  },
+  {
+    "id": "diagnostics",
+    "title": "App diagnostics",
+    "category": "Support",
+    "kind": "Screen",
+    "keywords": "App diagnostics — environment and versions diagnostics ",
+    "file": "./assets/screenshots/12-diagnostics.png"
+  },
+  {
+    "id": "diagnostics-native",
+    "title": "Device information",
+    "category": "Support",
+    "kind": "Screen",
+    "keywords": "App diagnostics — native checks unavailable in preview diagnostics ",
+    "file": "./assets/screenshots/13-diagnostics-native.png"
+  },
+  {
+    "id": "client-home",
+    "title": "Home",
+    "category": "Client",
+    "kind": "Coming soon",
+    "keywords": "Client Home — placeholder home ",
+    "file": "./assets/screenshots/14-client-home.png"
+  },
+  {
+    "id": "client-care",
+    "title": "Care",
+    "category": "Client",
+    "kind": "Coming soon",
+    "keywords": "Client Care — placeholder care ",
+    "file": "./assets/screenshots/15-client-care.png"
+  },
+  {
+    "id": "client-inbox",
+    "title": "Inbox",
+    "category": "Client",
+    "kind": "Coming soon",
+    "keywords": "Client Inbox — placeholder inbox ",
+    "file": "./assets/screenshots/16-client-inbox.png"
+  },
+  {
+    "id": "delegate-visits",
+    "title": "Visits",
+    "category": "Family",
+    "kind": "Coming soon",
+    "keywords": "Delegate Visits — placeholder visits ",
+    "file": "./assets/screenshots/17-delegate-visits.png"
+  },
+  {
+    "id": "delegate-inbox",
+    "title": "Inbox",
+    "category": "Family",
+    "kind": "Coming soon",
+    "keywords": "Delegate Inbox — placeholder inbox ",
+    "file": "./assets/screenshots/18-delegate-inbox.png"
+  },
+  {
+    "id": "psw-inbox",
+    "title": "Inbox",
+    "category": "PSW",
+    "kind": "Coming soon",
+    "keywords": "PSW Inbox — placeholder inbox ",
+    "file": "./assets/screenshots/19-psw-inbox.png"
+  },
+  {
+    "id": "account-pending",
+    "title": "Awaiting approval",
+    "category": "Getting started",
+    "kind": "Preview state",
+    "keywords": "Account pending approval refused ",
+    "file": "./assets/screenshots/20-account-pending.png"
+  },
+  {
+    "id": "account-rejected",
+    "title": "Account not approved",
+    "category": "Getting started",
+    "kind": "Preview state",
+    "keywords": "Account not approved refused ",
+    "file": "./assets/screenshots/21-account-rejected.png"
+  },
+  {
+    "id": "account-suspended",
+    "title": "Account suspended",
+    "category": "Getting started",
+    "kind": "Preview state",
+    "keywords": "Account suspended refused ",
+    "file": "./assets/screenshots/22-account-suspended.png"
+  },
+  {
+    "id": "unsupported-role",
+    "title": "Account access",
+    "category": "Getting started",
+    "kind": "Preview state",
+    "keywords": "Account role not supported refused ",
+    "file": "./assets/screenshots/23-unsupported-role.png"
+  },
+  {
+    "id": "update-required",
+    "title": "Update required",
+    "category": "Getting started",
+    "kind": "Preview state",
+    "keywords": "Update required update ",
+    "file": "./assets/screenshots/24-update-required.png"
+  },
+  {
+    "id": "wrong-server",
+    "title": "Connection check",
+    "category": "Getting started",
+    "kind": "Preview state",
+    "keywords": "Startup — wrong server startup wrong-server",
+    "file": "./assets/screenshots/25-wrong-server.png"
+  },
+  {
+    "id": "server-unreachable",
+    "title": "Connection unavailable",
+    "category": "Getting started",
+    "kind": "Preview state",
+    "keywords": "Startup — server unreachable startup unreachable",
+    "file": "./assets/screenshots/26-server-unreachable.png"
+  },
+  {
+    "id": "startup-checking",
+    "title": "Connecting",
+    "category": "Getting started",
+    "kind": "Preview state",
+    "keywords": "Startup — checking connection startup checking",
+    "file": "./assets/screenshots/27-startup-checking.png"
+  },
+  {
+    "id": "today-empty",
+    "title": "Today: no upcoming visits",
+    "category": "PSW",
+    "kind": "Preview state",
+    "keywords": "PSW Today — no visits today empty",
+    "file": "./assets/screenshots/28-today-empty.png"
+  },
+  {
+    "id": "schedule-empty",
+    "title": "Schedule: no visits",
+    "category": "PSW",
+    "kind": "Preview state",
+    "keywords": "PSW Schedule — no visits schedule empty",
+    "file": "./assets/screenshots/29-schedule-empty.png"
+  },
+  {
+    "id": "today-loading",
+    "title": "Loading visits",
+    "category": "PSW",
+    "kind": "Preview state",
+    "keywords": "PSW Today — loading today loading",
+    "file": "./assets/screenshots/30-today-loading.png"
+  },
+  {
+    "id": "today-offline",
+    "title": "Offline visits",
+    "category": "PSW",
+    "kind": "Preview state",
+    "keywords": "PSW Today — offline with cached demo data today offline",
+    "file": "./assets/screenshots/31-today-offline.png"
+  },
+  {
+    "id": "today-error",
+    "title": "Unable to load visits",
+    "category": "PSW",
+    "kind": "Preview state",
+    "keywords": "PSW Today — request error today error",
+    "file": "./assets/screenshots/32-today-error.png"
+  },
+  {
+    "id": "visit-access-removed",
+    "title": "Visit access changed",
+    "category": "PSW",
+    "kind": "Preview state",
+    "keywords": "Visit access removed visit gone",
+    "file": "./assets/screenshots/33-visit-access-removed.png"
+  },
+  {
+    "id": "sign-in-validation",
+    "title": "Sign-in validation",
+    "category": "Getting started",
+    "kind": "Preview state",
+    "keywords": "Sign-in — missing fields sign-in ",
+    "file": "./assets/screenshots/34-sign-in-validation.png"
+  },
+  {
+    "id": "session-expired",
+    "title": "Session ended",
+    "category": "Getting started",
+    "kind": "Preview state",
+    "keywords": "Welcome — session expired welcome ",
+    "file": "./assets/screenshots/35-session-expired.png"
+  },
+  {
+    "id": "offline-sign-out",
+    "title": "Offline sign-out",
+    "category": "Getting started",
+    "kind": "Preview state",
+    "keywords": "Welcome — offline sign-out welcome ",
+    "file": "./assets/screenshots/36-offline-sign-out.png"
+  },
+  {
+    "id": "visit-decline-bottom",
+    "title": "Decline reason & response",
+    "category": "PSW",
+    "kind": "Screen",
+    "keywords": "Decline form ? remaining fields and send controls visit pending",
+    "file": "./assets/screenshots/37-visit-decline-bottom.png"
+  },
+  {
+    "id": "visit-confirmed-care",
+    "title": "Care notes & contact",
+    "category": "PSW",
+    "kind": "Screen",
+    "keywords": "Confirmed visit ? care details and contact (demo) visit confirmed",
+    "file": "./assets/screenshots/38-visit-confirmed-care.png"
+  }
+]
